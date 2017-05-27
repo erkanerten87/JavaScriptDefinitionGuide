@@ -13,11 +13,11 @@ var x = 0;
 
 // General rule javascript interpreter if needed and not have ; in the end concats
 // the below line after this statement like this
-// var y = x+f(a+b).toString();
+
 var y = x + f
     (a+b).toString();
 
-
+// means var y = x+f(a+b).toString();
 
 // two exceptional rules for this is return and  ++ -- operators
 //return
