@@ -1,5 +1,14 @@
-// When the javascript interpreter starts or browser load a new page
-// it creates a new global object
+/*
+ When the javascript interpreter starts or browser load a new page
+ it creates a new global object
+
+ The global object is a simply object not a class.
+ there is no global constructor and there is no way to instantiate a
+ new global object
+
+ In client-side javascript the global object is a window object and
+ respresnets the web browser window
+ */
 
 // global properties like undefined, infinity , nan
 //undefined;
@@ -20,10 +29,3 @@ then.getUTCHours();
 Math.pow(5, 2);
 JSON.parse("{ value : 5 )");
 
-/* the global object is a simply object not a class.
- there is no global constructor and there is no way to instantiate a
- new global object
-
- In client-side javascript the global object is a window object and
- respresnets the web browser window
- */
